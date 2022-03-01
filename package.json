@@ -1,6 +1,7 @@
 {
   "name": "robofriends",
   "version": "0.1.0",
+  "homepage": "http://premtimb.github.io/robofriends-redux",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
